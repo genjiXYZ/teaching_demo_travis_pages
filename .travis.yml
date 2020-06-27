@@ -1,8 +1,8 @@
-sudo: false
+
 language: node_js
 node_js:
   - 12
-cache: npm
+
 branches:
   only:
     - master
@@ -17,4 +17,4 @@ deploy:
   keep-history: true
   on:
     branch: master
-  local-dir: dist
+  local-dir: dist 
